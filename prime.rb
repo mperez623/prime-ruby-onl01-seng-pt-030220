@@ -1,5 +1,5 @@
 def prime?(number)
-  if number == 1 
+  if number.abs == 1 
     return false 
   end
   i = 2
